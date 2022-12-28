@@ -12,7 +12,7 @@
 # export BATCH_POOL_IMAGE_PUBLISHER=microsoft-azure-batch
 # export BATCH_POOL_IMAGE_OFFER=ubuntu-server-container
 # export BATCH_POOL_IMAGE_SKU=20-04-lts
-# export BATCH_POOL_RESOURCE_FILE_PREFIX=
+# export BATCH_POOL_RESOURCE_FILE_PREFIX=resource-files
 
 # export BATCH_POOL_VM_CONTAINER_IMAGE=ubuntu
 # export BATCH_POOL_VM_NODE_AGENT_SKU_ID="batch.node.ubuntu 20.04"
