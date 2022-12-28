@@ -63,5 +63,7 @@ rule plot_quals:
         "results/calls/all.vcf"
     output:
         "results/plots/quals.svg"
+    conda:
+        "envs/stats.yaml"
     script:
-        "scripts/plot-quals.py"
+        "src/plot-quals.py"
