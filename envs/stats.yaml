@@ -1,8 +1,7 @@
 channels:
   - bioconda
   - conda-forge
+  - defaults
 dependencies:
-  - pysam =0.17
-  - altair =4.1
-  - altair_saver =0.5
-  - pandas =1.3
+  - pysam
+  - matplotlib

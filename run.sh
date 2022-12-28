@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # required env variables
-export AZ_BLOB_PREFIX=
-export AZ_BATCH_ACCOUNT_URL=
-export AZ_BATCH_ACCOUNT_KEY=
-export AZ_BLOB_ACCOUNT_URL=
+# export AZ_BLOB_PREFIX=
+# export AZ_BATCH_ACCOUNT_URL=
+# export AZ_BATCH_ACCOUNT_KEY=
+# export AZ_BLOB_ACCOUNT_URL=
 
 # optional environment variables with defaults listed
 

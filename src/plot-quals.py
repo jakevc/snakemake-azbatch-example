@@ -1,12 +1,10 @@
-import pandas as pd
-import altair as alt
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 from pysam import VariantFile
 
-quals = pd.DataFrame({"qual": [record.qual for record in VariantFile(snakemake.input[0])]})
+quals = [record.qual for record in VariantFile(snakemake.input[0])]
+plt.hist(quals)
 
-chart = alt.Chart(quals).mark_bar().encode(
-    alt.X("qual", bin=True),
-    alt.Y("count()")
-)
-
-chart.save(snakemake.output[0])
+plt.savefig(snakemake.output[0])
